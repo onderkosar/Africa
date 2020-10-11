@@ -29,6 +29,9 @@
 		9591F3B82533A33D00D9AAB4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591F3B72533A33D00D9AAB4 /* MapView.swift */; };
 		9591F3BB2533A34D00D9AAB4 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591F3BA2533A34D00D9AAB4 /* GalleryView.swift */; };
 		9591F3BE2533A35900D9AAB4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591F3BD2533A35900D9AAB4 /* MainView.swift */; };
+		9591F3C22533A5AB00D9AAB4 /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591F3C12533A5AB00D9AAB4 /* CoverImageView.swift */; };
+		9591F3C82533A7EB00D9AAB4 /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591F3C72533A7EB00D9AAB4 /* CoverImageModel.swift */; };
+		9591F3CD2533A99100D9AAB4 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591F3CC2533A99100D9AAB4 /* CodableBundleExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +59,9 @@
 		9591F3B72533A33D00D9AAB4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		9591F3BA2533A34D00D9AAB4 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		9591F3BD2533A35900D9AAB4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		9591F3C12533A5AB00D9AAB4 /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
+		9591F3C72533A7EB00D9AAB4 /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
+		9591F3CC2533A99100D9AAB4 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,9 +94,12 @@
 		955340BC25335C4B002C08FC /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				9591F3CB2533A97B00D9AAB4 /* Extension */,
 				955340E325335DDA002C08FC /* Data */,
-				955340CD25335D8C002C08FC /* Video */,
+				9591F3C62533A7D800D9AAB4 /* Model */,
+				9591F3C02533A59A00D9AAB4 /* View */,
 				9591F3B22533986A00D9AAB4 /* App */,
+				955340CD25335D8C002C08FC /* Video */,
 				955340C125335C4C002C08FC /* Assets.xcassets */,
 				955340C625335C4C002C08FC /* Info.plist */,
 				955340C325335C4C002C08FC /* Preview Content */,
@@ -145,6 +154,30 @@
 				9591F3BD2533A35900D9AAB4 /* MainView.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		9591F3C02533A59A00D9AAB4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9591F3C12533A5AB00D9AAB4 /* CoverImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9591F3C62533A7D800D9AAB4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9591F3C72533A7EB00D9AAB4 /* CoverImageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9591F3CB2533A97B00D9AAB4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9591F3CC2533A99100D9AAB4 /* CodableBundleExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,10 +265,13 @@
 			files = (
 				955340C025335C4B002C08FC /* ContentView.swift in Sources */,
 				9591F3BE2533A35900D9AAB4 /* MainView.swift in Sources */,
+				9591F3C22533A5AB00D9AAB4 /* CoverImageView.swift in Sources */,
+				9591F3C82533A7EB00D9AAB4 /* CoverImageModel.swift in Sources */,
 				9591F3B82533A33D00D9AAB4 /* MapView.swift in Sources */,
 				955340BE25335C4B002C08FC /* AfricaApp.swift in Sources */,
 				9591F3B52533A32A00D9AAB4 /* VideoListView.swift in Sources */,
 				9591F3BB2533A34D00D9AAB4 /* GalleryView.swift in Sources */,
+				9591F3CD2533A99100D9AAB4 /* CodableBundleExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
