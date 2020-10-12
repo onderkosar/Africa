@@ -16,9 +16,7 @@ struct VideoPlayerView: View {
     // MARK: - BODY
     var body: some View {
         VStack {
-            VideoPlayer(player: playVideo(fileName: videoSelected, fileFormat: "mp4")) {
-//                Text(videoTitle)
-            }
+            VideoPlayer(player: playVideo(fileName: videoSelected, fileFormat: "mp4")) { }
             .overlay(
                 Image("logo")
                     .resizable()
