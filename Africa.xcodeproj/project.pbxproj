@@ -46,6 +46,7 @@
 		959812C0253481BD000D4D47 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959812BF253481BD000D4D47 /* VideoPlayerView.swift */; };
 		959812C4253486F4000D4D47 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959812C3253486F4000D4D47 /* VideoPlayerHelper.swift */; };
 		959812C825348D92000D4D47 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959812C725348D92000D4D47 /* LocationModel.swift */; };
+		95F6680425476B7000B6087D /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F6680325476B7000B6087D /* AnimalGridItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +91,7 @@
 		959812BF253481BD000D4D47 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		959812C3253486F4000D4D47 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
 		959812C725348D92000D4D47 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		95F6680325476B7000B6087D /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +201,7 @@
 				959812BB25347A42000D4D47 /* VideoListItemView.swift */,
 				959812BF253481BD000D4D47 /* VideoPlayerView.swift */,
 				9591004E2534A8730000B922 /* MapAnnotationView.swift */,
+				95F6680325476B7000B6087D /* AnimalGridItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				9591F3D12533ADC500D9AAB4 /* AnimalListItemView.swift in Sources */,
 				9591F3BE2533A35900D9AAB4 /* MainView.swift in Sources */,
 				9591F3E02533BDC900D9AAB4 /* InsetFactView.swift in Sources */,
+				95F6680425476B7000B6087D /* AnimalGridItemView.swift in Sources */,
 				9591F3C22533A5AB00D9AAB4 /* CoverImageView.swift in Sources */,
 				9591F3C82533A7EB00D9AAB4 /* CoverImageModel.swift in Sources */,
 				9591F3D72533B75000D9AAB4 /* AnimalDetailView.swift in Sources */,
