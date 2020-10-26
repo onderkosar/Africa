@@ -39,6 +39,7 @@ struct VideoListView: View {
                 }
             }
         } //: NAVIGATION
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
